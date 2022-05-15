@@ -1,0 +1,22 @@
+.devis {
+    height: 80px;
+}
+
+.description {
+    padding-top: 30px;
+    text-align: center;
+}
+
+.iconis,.col, i {
+    color: lightblue;
+    font-size: 100px;
+}
+
+.iconis,.col, h2 {
+    font-size: 25px;
+    color: black;
+}
+
+.texte-descriptif {
+    font-size: 25px;
+}
