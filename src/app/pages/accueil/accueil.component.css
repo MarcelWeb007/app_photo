@@ -20,3 +20,8 @@
 .texte-descriptif {
     font-size: 25px;
 }
+
+.iconit,.col, i {
+    color: black;
+    font-size: 50px;
+}
