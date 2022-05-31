@@ -1,26 +1,15 @@
-.devis {
-    height: 80px;
+.about {
+    padding: 10px;
 }
 
-.iconis,.col, i {
-    color: lightblue;
-    font-size: 100px;
+.about h1 {
+    font-weight: bold;
+    font-size: 32px;
 }
 
-.iconis,.col, h2 {
-    font-size: 25px;
-    color: black;
-}
-
-.texte-descriptif {
-    font-size: 25px;
-}
-
-.iconit,.col, i {
-    color: black;
-    font-size: 50px;
-}
-
-.etapes p, ol{
-    font-size: 18px;
+.about p {
+    font-size: 20px;
+    margin-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
