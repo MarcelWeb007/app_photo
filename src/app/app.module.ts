@@ -7,6 +7,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { AccueilComponent } from './pages/accueil/accueil.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { ServicesComponent } from './pages/services/services.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ServicesComponent } from './pages/services/services.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
