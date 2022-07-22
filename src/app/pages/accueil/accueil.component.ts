@@ -7,8 +7,6 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AccueilComponent implements OnInit {
 
-  nom = "Rétina";
-
   constructor() { }
 
   ngOnInit(): void {
