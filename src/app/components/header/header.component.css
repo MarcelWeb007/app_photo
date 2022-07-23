@@ -1,0 +1,38 @@
+.navigation-wrap.scroll-on {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    background-color: var(--third-color);
+    z-index: 1000;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.navigation-wrap .navbar-brand img {
+    width: 13rem;
+}
+
+.navigation-wrap .nav-item {
+    padding: 0 0.625rem;
+    transition: all 200ms linear;
+}
+
+.navigation-wrap .navbar-toggler:focus {
+    outline: none;
+    border: unset;
+    box-shadow: none;
+}
+
+.navigation-wrap .nav-link {
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: var(--second-color);
+    letter-spacing: .0625rem;
+}
+
+.navigation-wrap .main-btn {
+    padding: 0.3125rem 1.4375rem;
+    box-shadow: none;
+    margin-left: 0.625rem;
+}
