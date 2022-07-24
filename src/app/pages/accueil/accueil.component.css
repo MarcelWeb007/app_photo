@@ -1,0 +1,19 @@
+.top-banner {
+    width: 100%;
+    background-image: url('https://s-makeup.ws.pho.to/images/makeup/face-retouch-young-black-girl.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 14.875rem 0 9.375rem;
+}
+
+.counter-section {
+    background-color: var(--second-color);
+    padding: 2.5rem 0;
+}
+
+.counter-section p {
+    color: var(--third-color);
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
