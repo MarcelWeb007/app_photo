@@ -17,3 +17,56 @@
     text-transform: uppercase;
     margin-bottom: 0;
 }
+
+.service-type {
+    padding-top: 3.25rem;
+}
+
+.service-type ul li {
+    font-size: 1rem;
+    color: var(--first-color);
+    line-height: 2rem;
+    position: relative;
+    margin-left: 1.875rem;
+}
+
+.service-type ul li mat-icon {
+    position: absolute;
+    left: -2.1875rem;
+    color: var(--second-color);
+    font-size: 1.25rem;
+    display: inline-block;
+    font-weight: 900;
+    line-height: 2rem;
+}
+
+.story-section {
+    width: 100%;
+    height: 28.125rem;
+    background-image: url('https://i0.wp.com/digital-photography-school.com/wp-content/uploads/2020/05/photoshop-tools-to-edit-backgrounds-introduction.jpg?fit=1500%2C750&ssl=1');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    text-align: center;
+    padding-top: 6.25rem;
+}
+
+.explore-service .card {
+    background: transparent;
+    border-radius: 0.9375rem;
+    border:.125rem dashed var(--first-color);
+}
+
+.explore-service .card img {
+    border-radius: 0.9375rem 0.9375rem 0 0;
+    object-fit: cover;
+}
+
+.explore-service .card span {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--first-color);
+    padding-bottom: 1rem;
+    border-bottom: 0.0625rem solid var(--first-color);
+}

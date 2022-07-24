@@ -38,4 +38,9 @@
     .navigation-wrap .navbar-brand img {
         width: 12rem;
     }
+
+    .story-section {
+        height: auto;
+        padding: 3rem 0;
+    }
 }
