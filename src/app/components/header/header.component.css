@@ -9,7 +9,8 @@
 }
 
 .navigation-wrap .navbar-brand img {
-    width: 13rem;
+    width: 3rem;
+    border-radius: 50%;
 }
 
 .navigation-wrap .nav-item {

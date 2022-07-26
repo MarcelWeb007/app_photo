@@ -70,3 +70,41 @@
     padding-bottom: 1rem;
     border-bottom: 0.0625rem solid var(--first-color);
 }
+
+.testimonial-section {
+    background-image: url('https://static.vecteezy.com/system/resources/previews/001/849/553/original/modern-gold-background-free-vector.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.testimonial-section .carousel-item {
+    margin-top: 3rem;
+    padding: 10rem 3.125rem;
+    background-color: var(--third-color);
+    border-radius: 0.9375rem;
+    text-align: center;
+}
+
+.testimonial-section .carousel-item img {
+    max-width: 5rem;
+    border-radius: 50%;
+    padding: 0.3125rem;
+    border: .152rem solid var(--first-color);
+}
+
+.testimonial-section .carousel-item .carousel-caption p {
+    font-size: 1.3125rem;
+    line-height: 2.0625rem;
+    padding: 0.625rem 11%;
+}
+
+.testimonial-section .carousel-indicators {
+    bottom: -4.9125rem;
+}
+
+.testimonial-section .carousel-indicators button {
+    width: .9375rem;
+    height: .9375rem;
+    border-radius: 50%;
+}

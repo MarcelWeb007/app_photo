@@ -28,6 +28,15 @@
     .top-banner {
         padding: 6.375rem 0 4.375rem;
     }
+
+    .testimonial-section .carousel-item .carousel-caption p {
+        padding: 0;
+        font-size: 1.1rem;
+    }
+
+    .testimonial-section .carousel-indicators {
+        bottom: -3.9125rem;
+    }
 }
 
 @media (max-width: 767px) {
@@ -42,5 +51,23 @@
     .story-section {
         height: auto;
         padding: 3rem 0;
+    }
+
+    .testimonial-section.wrapper {
+        padding: 4rem 0 5rem;
+    }
+
+    .testimonial-section .carousel-item {
+        padding: 11rem 3.125rem;
+    }
+
+    .testimonial-section .carousel-indicators {
+        bottom: -4.9125rem;
+    }
+}
+
+@media (max-width: 330px) {
+    .testimonial-section .carousel-item {
+        padding: 13rem 3.125rem;
     }
 }
