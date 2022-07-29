@@ -64,6 +64,19 @@
     .testimonial-section .carousel-indicators {
         bottom: -4.9125rem;
     }
+
+    .steps .card .card-body p {
+        padding: 0;
+        font-size: 1.1rem;
+    }
+
+    .steps .card {
+        margin-bottom: 1rem;
+    }
+
+    .footer .footer-link, .footer a mat-icon {
+        padding: 0 0.7rem;
+    }
 }
 
 @media (max-width: 330px) {

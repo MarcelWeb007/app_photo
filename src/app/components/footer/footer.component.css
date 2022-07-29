@@ -1,0 +1,15 @@
+.footer {
+    background: var(--second-color);
+}
+
+.footer .footer-link {
+    font-size: 1rem;
+    color: var(--third-color);
+    padding: 0.1875rem;
+}
+
+.footer a {
+    font-size: 1.375rem;
+    color: var(--third-color);
+    padding: 0 1rem;
+}

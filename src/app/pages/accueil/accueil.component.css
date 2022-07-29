@@ -108,3 +108,31 @@
     height: .9375rem;
     border-radius: 50%;
 }
+
+.book-service {
+    width: 100%;
+    background-image: url('https://static.vecteezy.com/system/resources/previews/001/849/553/original/modern-gold-background-free-vector.jpg');
+    background-position: 0 4.4945rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 4.375rem 0;
+}
+
+.download-app {
+    width: 100%;
+    background-image: url('https://img.freepik.com/free-photo/gray-abstract-wireframe-technology-background_53876-101941.jpg?w=2000');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.preuv span {
+    margin-left: 1rem;
+    font-size: 1.100rem;
+}
+
+.preuv span b {
+    font-size: 1.6rem;
+    color: var(--first-color);
+}
